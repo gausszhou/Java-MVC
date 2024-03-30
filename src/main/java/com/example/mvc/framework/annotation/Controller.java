@@ -7,6 +7,6 @@ import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
-public @interface Container {
+public @interface Controller {
     String value() default ""; // 定义一个可选的value属性
 }
